@@ -7,7 +7,7 @@ export default class Second extends React.Component {
         return (
             <div className="second">
              <div className="second-large-text">
-             Discover<br/>TEMARI 
+             Discover TEMARI 
              </div>
              <div className="second-reg-text">
              Unique in so many ways, TEMARI is one of the most satisfying, soothing, yet profoundly rewarding forms of needlecraft. Of Japanese origin, Temari was traditionally a gift given to symbolize perfection, deep friendship, and loyalty. Today, Temari are enjoyed not only for their tradition but also as beautiful, elegant, intricate, fun and awe-inspiring ornamental art.
@@ -28,7 +28,9 @@ export default class Second extends React.Component {
             title= "Get Inspired"
             description= "Temari will offer new techniques with each unique design. Take a look at our gallery for samples and individual patterns."
              />
-             
+            <div className="second-large-text">
+             Start your Temari Experience Today!
+             </div>
             </div>
         );
     }

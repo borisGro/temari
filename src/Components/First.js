@@ -1,4 +1,5 @@
 import React from 'react';
+import ShopButton from './ShopButton'
 
 export default class First extends React.Component {
 
@@ -12,14 +13,12 @@ export default class First extends React.Component {
             The Art of Japanese Thread Balls
             </div>
             <div className="first-small-text">
-            <strong>Welcome to Temari!</strong><br/> We are so glad that you are here to explore the ancient tradition of Japanese Thread Balls. We offer books, DVD, and individual stitching patterns. 
+            <strong>Welcome to Temari!</strong> We are so glad that you are here to explore the ancient tradition of Japanese Thread Balls. We offer books, DVD, and individual stitching patterns. 
             </div>
             <div className="first-small-text">
             Join the fun with Temari!
             </div>
-            <button className="shop-button">
-            SHOP NOW
-            </button>
+            <ShopButton text={"SHOP NOW"} />
             </div>
         );
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Reason from './Reason'
+import Reason from '../Components/Reason'
 
 export default class Second extends React.Component {
 

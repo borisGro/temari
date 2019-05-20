@@ -12,9 +12,9 @@ export default class Thirdbox extends React.Component {
                  <div className="reason-description">
                  {this.props.description}
                  </div>
-                 <div className="shop-button">
+                 <button className="shop-button">
                  {this.props.button}
-                 </div>
+                 </button>
              </div>
         );
     }

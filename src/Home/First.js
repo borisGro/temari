@@ -1,5 +1,5 @@
 import React from 'react';
-import ShopButton from './ShopButton'
+import ShopButton from '../Components/ShopButton'
 
 export default class First extends React.Component {
 
